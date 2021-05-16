@@ -1,5 +1,4 @@
-from Pesoa import Pessoa
-
+from Pessoa import Pessoa
 
 class Aluno(Pessoa):
     matricula=None 
@@ -8,13 +7,13 @@ class Aluno(Pessoa):
     disciplina=None
  
     def setmat(self,matricula):
-        self.matricula=int('insira a matricula do aluno:')
+        self.matricula=matricula
 
     def getmat(self,matricula):
         return self.matricula 
     
     def disci(self,disciplina):
-         self.disciplina=input('insira a disciplina: ')
+         self.disciplina=disciplina
 
     def adddisci(self,disc,disciplina):
         self.disci.append(self.disciplina)
