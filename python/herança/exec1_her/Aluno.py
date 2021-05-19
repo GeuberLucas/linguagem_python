@@ -16,3 +16,9 @@ class Aluno (Pessoa):
 
     def getcurso(self):
         return self.curso
+
+    def adddisciplina(self, d):
+        d.append(input('qual disciplina você deseja incluir? '))
+
+    def removedisciplina(self,d):
+        d.remove(input('qual disciplina você deseja remover?'))
