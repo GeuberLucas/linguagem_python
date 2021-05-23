@@ -1,0 +1,3 @@
+class Primos():
+    numero:None 
+    
